@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Runtime\AssetFramework\AssetFramework.cpp" />
+    <ClCompile Include="Runtime\Core\Math\Math.cpp" />
+    <ClCompile Include="Runtime\Core\Windows\WindowsMemory.cpp" />
+    <ClCompile Include="Runtime\Core\Windows\WindowsTime.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameCharCodeMap.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameLoseMenu.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameMainMenu.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameMenu.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GamePlayMenu.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameRecordsMenu.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameState.cpp" />
+    <ClCompile Include="Runtime\GameFramework\GameWinMenu.cpp" />
+    <ClCompile Include="Runtime\Main.cpp" />
+    <ClCompile Include="Runtime\OpenGL\IndexBuffer.cpp" />
+    <ClCompile Include="Runtime\OpenGL\PipelineState.cpp" />
+    <ClCompile Include="Runtime\OpenGL\PixelShader.cpp" />
+    <ClCompile Include="Runtime\OpenGL\Texture2D.cpp" />
+    <ClCompile Include="Runtime\OpenGL\VertexBuffer.cpp" />
+    <ClCompile Include="Runtime\OpenGL\VertexDeclaration.cpp" />
+    <ClCompile Include="Runtime\OpenGL\VertexShader.cpp" />
+    <ClCompile Include="Runtime\OpenGL\Windows\EntryPoints.cpp" />
+    <ClCompile Include="Runtime\OpenGL\Windows\OpenGLWindows.cpp" />
+    <ClCompile Include="Runtime\Platform\Windows\WindowsApplication.cpp" />
+    <ClCompile Include="Runtime\Platform\Windows\WindowsPlatformFileIni.cpp" />
+    <ClCompile Include="Runtime\Platform\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="Runtime\Renderer\CanvasButton.cpp" />
+    <ClCompile Include="Runtime\Renderer\CanvasMenu.cpp" />
+    <ClCompile Include="Runtime\Renderer\CanvasMenuState.cpp" />
+    <ClCompile Include="Runtime\Renderer\CanvasRenderer.cpp" />
+    <ClCompile Include="Runtime\Renderer\FontCache.cpp" />
+    <ClCompile Include="Runtime\Renderer\RenderResourceAllocator.cpp" />
+    <ClCompile Include="Runtime\Renderer\SpriteRenderer.cpp" />
+    <ClCompile Include="Runtime\Renderer\TextRenderer.cpp" />
+    <ClCompile Include="Runtime\Renderer\TileRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Runtime\Core\Container\Array.inl" />
+    <None Include="Runtime\Core\Container\CString.inl" />
+    <None Include="Runtime\Core\Container\String.inl" />
+    <None Include="Runtime\Core\Math\Color32.inl" />
+    <None Include="Runtime\Core\Math\IntPoint.inl" />
+    <None Include="Runtime\Core\Math\IntRect.inl" />
+    <None Include="Runtime\Core\Math\Matrix.inl" />
+    <None Include="Runtime\Core\Math\Transform.inl" />
+    <None Include="Runtime\Core\Math\Vector2D.inl" />
+    <None Include="Runtime\Core\Math\Vector3D.inl" />
+    <None Include="Runtime\Core\Math\Vector4D.inl" />
+    <None Include="Runtime\Core\Memory\AllocatorInterface.inl" />
+    <None Include="Runtime\Core\Memory\FixedAllocator.inl" />
+    <None Include="Runtime\Core\Memory\HeapAllocator.inl" />
+    <None Include="Runtime\Core\Memory\InlineAllocator.inl" />
+    <None Include="Runtime\Core\Memory\StackAllocator.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Runtime\AssetFramework\AssetFramework.h" />
+    <ClInclude Include="Runtime\Core\CommonTypes.h" />
+    <ClInclude Include="Runtime\Core\Container\Array.h" />
+    <ClInclude Include="Runtime\Core\Container\CString.h" />
+    <ClInclude Include="Runtime\Core\Container\String.h" />
+    <ClInclude Include="Runtime\Core\CoreMinimal.h" />
+    <ClInclude Include="Runtime\Core\Definitions.h" />
+    <ClInclude Include="Runtime\Core\HAL\PlatformMath.h" />
+    <ClInclude Include="Runtime\Core\HAL\PlatformMemory.h" />
+    <ClInclude Include="Runtime\Core\HAL\PlatformTime.h" />
+    <ClInclude Include="Runtime\Core\Math\Color32.h" />
+    <ClInclude Include="Runtime\Core\Math\GenericMath.h" />
+    <ClInclude Include="Runtime\Core\Math\IntPoint.h" />
+    <ClInclude Include="Runtime\Core\Math\IntRect.h" />
+    <ClInclude Include="Runtime\Core\Math\Math.h" />
+    <ClInclude Include="Runtime\Core\Math\Matrix.h" />
+    <ClInclude Include="Runtime\Core\Math\NumericLimits.h" />
+    <ClInclude Include="Runtime\Core\Math\Transform.h" />
+    <ClInclude Include="Runtime\Core\Math\UtilityMath.h" />
+    <ClInclude Include="Runtime\Core\Math\Vector2D.h" />
+    <ClInclude Include="Runtime\Core\Math\Vector3D.h" />
+    <ClInclude Include="Runtime\Core\Math\Vector4D.h" />
+    <ClInclude Include="Runtime\Core\Memory\AllocatorInterface.h" />
+    <ClInclude Include="Runtime\Core\Memory\FixedAllocator.h" />
+    <ClInclude Include="Runtime\Core\Memory\GenericMemory.h" />
+    <ClInclude Include="Runtime\Core\Memory\HeapAllocator.h" />
+    <ClInclude Include="Runtime\Core\Memory\InlineAllocator.h" />
+    <ClInclude Include="Runtime\Core\Memory\Memory.h" />
+    <ClInclude Include="Runtime\Core\Memory\StackAllocator.h" />
+    <ClInclude Include="Runtime\Core\Memory\UtilityMemory.h" />
+    <ClInclude Include="Runtime\Core\Windows\WindowsCompiler.h" />
+    <ClInclude Include="Runtime\Core\Windows\WindowsIncludes.h" />
+    <ClInclude Include="Runtime\Core\Windows\WindowsMath.h" />
+    <ClInclude Include="Runtime\Core\Windows\WindowsMemory.h" />
+    <ClInclude Include="Runtime\Core\Windows\WindowsPlatform.h" />
+    <ClInclude Include="Runtime\Core\Windows\WindowsTime.h" />
+    <ClInclude Include="Runtime\GameFramework\GameCharCodeMap.h" />
+    <ClInclude Include="Runtime\GameFramework\GameCore.h" />
+    <ClInclude Include="Runtime\GameFramework\GameFramework.h" />
+    <ClInclude Include="Runtime\GameFramework\GameLoseMenu.h" />
+    <ClInclude Include="Runtime\GameFramework\GameMainMenu.h" />
+    <ClInclude Include="Runtime\GameFramework\GameMenu.h" />
+    <ClInclude Include="Runtime\GameFramework\GamePlayMenu.h" />
+    <ClInclude Include="Runtime\GameFramework\GameRecordsMenu.h" />
+    <ClInclude Include="Runtime\GameFramework\GameState.h" />
+    <ClInclude Include="Runtime\GameFramework\GameWinMenu.h" />
+    <ClInclude Include="Runtime\OpenGL\IndexBuffer.h" />
+    <ClInclude Include="Runtime\OpenGL\OpenGL.h" />
+    <ClInclude Include="Runtime\OpenGL\PipelineState.h" />
+    <ClInclude Include="Runtime\OpenGL\PixelShader.h" />
+    <ClInclude Include="Runtime\OpenGL\Texture2D.h" />
+    <ClInclude Include="Runtime\OpenGL\VertexBuffer.h" />
+    <ClInclude Include="Runtime\OpenGL\VertexDeclaration.h" />
+    <ClInclude Include="Runtime\OpenGL\VertexShader.h" />
+    <ClInclude Include="Runtime\OpenGL\Windows\EntryPoints.h" />
+    <ClInclude Include="Runtime\OpenGL\Windows\OpenGLWindows.h" />
+    <ClInclude Include="Runtime\Platform\Platform.h" />
+    <ClInclude Include="Runtime\Platform\Windows\WindowsApplication.h" />
+    <ClInclude Include="Runtime\Platform\Windows\WindowsPlatformFileIni.h" />
+    <ClInclude Include="Runtime\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="Runtime\Renderer\CanvasButton.h" />
+    <ClInclude Include="Runtime\Renderer\CanvasMenu.h" />
+    <ClInclude Include="Runtime\Renderer\CanvasMenuState.h" />
+    <ClInclude Include="Runtime\Renderer\CanvasRenderer.h" />
+    <ClInclude Include="Runtime\Renderer\FontCache.h" />
+    <ClInclude Include="Runtime\Renderer\Renderer.h" />
+    <ClInclude Include="Runtime\Renderer\RenderResourceAllocator.h" />
+    <ClInclude Include="Runtime\Renderer\SpriteRenderer.h" />
+    <ClInclude Include="Runtime\Renderer\TextRenderer.h" />
+    <ClInclude Include="Runtime\Renderer\TileRenderer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fbde359d-976b-4665-bcab-b6bd8e04d8ad}</ProjectGuid>
+    <RootNamespace>Thesis</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Binaries\Win32\</OutDir>
+    <IncludePath>$(SolutionDir)Binaries\Includes;$(SolutionDir)SourceCode\Runtime;$(SolutionDir)SourceCode\Runtime\Core;$(SolutionDir)SourceCode\Runtime\Platform;$(SolutionDir)SourceCode\Runtime\OpenGL;$(SolutionDir)SourceCode\Runtime\Renderer;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Binaries\Libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Binaries\Win32\</OutDir>
+    <IncludePath>$(SolutionDir)Binaries\Includes;$(SolutionDir)SourceCode\Runtime;$(SolutionDir)SourceCode\Runtime\Core;$(SolutionDir)SourceCode\Runtime\Platform;$(SolutionDir)SourceCode\Runtime\OpenGL;$(SolutionDir)SourceCode\Runtime\Renderer;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Binaries\Libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Binaries\Win64\</OutDir>
+    <IncludePath>$(SolutionDir)Binaries\Includes;$(SolutionDir)SourceCode\Runtime;$(SolutionDir)SourceCode\Runtime\Core;$(SolutionDir)SourceCode\Runtime\Platform;$(SolutionDir)SourceCode\Runtime\OpenGL;$(SolutionDir)SourceCode\Runtime\Renderer;$(SolutionDir)SourceCode\Runtime\GameFramework;$(SolutionDir)SourceCode\Runtime\AssetFramework;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Binaries\Libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Binaries\Win64\</OutDir>
+    <IncludePath>$(SolutionDir)Binaries\Includes;$(SolutionDir)SourceCode\Runtime;$(SolutionDir)SourceCode\Runtime\Core;$(SolutionDir)SourceCode\Runtime\Platform;$(SolutionDir)SourceCode\Runtime\OpenGL;$(SolutionDir)SourceCode\Runtime\Renderer;$(SolutionDir)SourceCode\Runtime\GameFramework;$(SolutionDir)SourceCode\Runtime\AssetFramework;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Binaries\Libraries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>-D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>-D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>-D_CRT_SECURE_NO_WARNINGS -DDEBUG %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>-D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

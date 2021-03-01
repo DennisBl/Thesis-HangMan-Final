@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Runtime">
+      <UniqueIdentifier>{d9d5d392-aaaf-439c-aa16-08b45757485c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core">
+      <UniqueIdentifier>{d8a04b7f-d8b1-4bdb-9932-0bf1c71119ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core\Container">
+      <UniqueIdentifier>{b7dd725b-7adf-4697-8fef-b12be668232f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core\Math">
+      <UniqueIdentifier>{f6624afa-8c19-4262-a9a8-545952d17f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core\Memory">
+      <UniqueIdentifier>{ee13d904-99c5-412b-8507-b8a6f86a126e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\OpenGL">
+      <UniqueIdentifier>{07114226-186b-4f4c-aa4d-cd89c2cd1cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\OpenGL\Windows">
+      <UniqueIdentifier>{9518ba7d-98cd-4582-8f4f-0c2216d85b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Platform">
+      <UniqueIdentifier>{54f3ac2d-47e5-455e-9a57-e39a34c6f0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Platform\Windows">
+      <UniqueIdentifier>{f768893f-24bb-44da-b982-9bd5b2fda1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Renderer">
+      <UniqueIdentifier>{4b76d728-c0b9-4e27-8ab1-d2056251eaf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\AssetFramework">
+      <UniqueIdentifier>{cc2a6ba8-7fda-494b-9713-16624c5fe89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\GameFramework">
+      <UniqueIdentifier>{66ba87e1-73cd-46de-9a6b-349bdc92fbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core\Windows">
+      <UniqueIdentifier>{a817de70-cac6-41ed-a9be-085813bddd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core\HAL">
+      <UniqueIdentifier>{b2cb8753-0b87-4597-b89c-2faba3ca3174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Runtime\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Core\Math\Math.cpp">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\Windows\EntryPoints.cpp">
+      <Filter>Source Files\Runtime\OpenGL\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\Windows\OpenGLWindows.cpp">
+      <Filter>Source Files\Runtime\OpenGL\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Source Files\Runtime\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\PixelShader.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\VertexBuffer.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\VertexShader.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\IndexBuffer.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\PipelineState.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\SpriteRenderer.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\TextRenderer.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\TileRenderer.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\CanvasRenderer.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\Texture2D.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\FontCache.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Platform\Windows\WindowsApplication.cpp">
+      <Filter>Source Files\Runtime\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\RenderResourceAllocator.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\CanvasMenuState.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\CanvasButton.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Renderer\CanvasMenu.cpp">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameMainMenu.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameMenu.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GamePlayMenu.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameRecordsMenu.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameWinMenu.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameLoseMenu.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\AssetFramework\AssetFramework.cpp">
+      <Filter>Source Files\Runtime\AssetFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\OpenGL\VertexDeclaration.cpp">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Platform\Windows\WindowsPlatformFileIni.cpp">
+      <Filter>Source Files\Runtime\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameState.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Core\Windows\WindowsTime.cpp">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\Core\Windows\WindowsMemory.cpp">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\GameFramework\GameCharCodeMap.cpp">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Runtime\Core\Container\CString.inl">
+      <Filter>Source Files\Runtime\Core\Container</Filter>
+    </None>
+    <None Include="Runtime\Core\Container\String.inl">
+      <Filter>Source Files\Runtime\Core\Container</Filter>
+    </None>
+    <None Include="Runtime\Core\Container\Array.inl">
+      <Filter>Source Files\Runtime\Core\Container</Filter>
+    </None>
+    <None Include="Runtime\Core\Memory\FixedAllocator.inl">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </None>
+    <None Include="Runtime\Core\Memory\HeapAllocator.inl">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </None>
+    <None Include="Runtime\Core\Memory\InlineAllocator.inl">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </None>
+    <None Include="Runtime\Core\Memory\StackAllocator.inl">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </None>
+    <None Include="Runtime\Core\Memory\AllocatorInterface.inl">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\Color32.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\IntPoint.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\IntRect.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\Matrix.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\Transform.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\Vector2D.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\Vector3D.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+    <None Include="Runtime\Core\Math\Vector4D.inl">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Runtime\Core\Container\CString.h">
+      <Filter>Source Files\Runtime\Core\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Container\String.h">
+      <Filter>Source Files\Runtime\Core\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Container\Array.h">
+      <Filter>Source Files\Runtime\Core\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\GenericMemory.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\HeapAllocator.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\InlineAllocator.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\Memory.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\StackAllocator.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\UtilityMemory.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\AllocatorInterface.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Memory\FixedAllocator.h">
+      <Filter>Source Files\Runtime\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\GenericMath.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\IntPoint.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\IntRect.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Math.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Matrix.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\NumericLimits.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Transform.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\UtilityMath.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Vector2D.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Vector3D.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Vector4D.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Math\Color32.h">
+      <Filter>Source Files\Runtime\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\CoreMinimal.h">
+      <Filter>Source Files\Runtime\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Definitions.h">
+      <Filter>Source Files\Runtime\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\CommonTypes.h">
+      <Filter>Source Files\Runtime\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\Windows\EntryPoints.h">
+      <Filter>Source Files\Runtime\OpenGL\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\Windows\OpenGLWindows.h">
+      <Filter>Source Files\Runtime\OpenGL\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Platform\Windows\WindowsWindow.h">
+      <Filter>Source Files\Runtime\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Platform\Platform.h">
+      <Filter>Source Files\Runtime\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\IndexBuffer.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\PixelShader.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\VertexBuffer.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\VertexShader.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\OpenGL.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\PipelineState.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\CanvasRenderer.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\SpriteRenderer.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\TextRenderer.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\TileRenderer.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\Renderer.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\Texture2D.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\FontCache.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Platform\Windows\WindowsApplication.h">
+      <Filter>Source Files\Runtime\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\RenderResourceAllocator.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\CanvasMenuState.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\CanvasButton.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Renderer\CanvasMenu.h">
+      <Filter>Source Files\Runtime\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameMainMenu.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameMenu.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GamePlayMenu.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameRecordsMenu.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameWinMenu.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameCore.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameFramework.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameLoseMenu.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\AssetFramework\AssetFramework.h">
+      <Filter>Source Files\Runtime\AssetFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\OpenGL\VertexDeclaration.h">
+      <Filter>Source Files\Runtime\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Platform\Windows\WindowsPlatformFileIni.h">
+      <Filter>Source Files\Runtime\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameState.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Windows\WindowsMemory.h">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Windows\WindowsPlatform.h">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Windows\WindowsTime.h">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Windows\WindowsCompiler.h">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Windows\WindowsIncludes.h">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\Windows\WindowsMath.h">
+      <Filter>Source Files\Runtime\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\HAL\PlatformMath.h">
+      <Filter>Source Files\Runtime\Core\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\HAL\PlatformMemory.h">
+      <Filter>Source Files\Runtime\Core\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\Core\HAL\PlatformTime.h">
+      <Filter>Source Files\Runtime\Core\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\GameFramework\GameCharCodeMap.h">
+      <Filter>Source Files\Runtime\GameFramework</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

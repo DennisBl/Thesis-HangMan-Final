@@ -1,0 +1,8 @@
+﻿  GamePlayMenu.cpp
+C:\Users\DennisPRO\Desktop\Thesis\SourceCode\Runtime\OpenGL\OpenGL.h(49,1): warning C4312: 'type cast': conversion from 'uint32' to 'const void *' of greater size
+C:\Users\DennisPRO\Desktop\Thesis\SourceCode\Runtime\GameFramework\GamePlayMenu.cpp(236,1): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameRecordsMenu.cpp
+C:\Users\DennisPRO\Desktop\Thesis\SourceCode\Runtime\OpenGL\OpenGL.h(49,1): warning C4312: 'type cast': conversion from 'uint32' to 'const void *' of greater size
+C:\Users\DennisPRO\Desktop\Thesis\SourceCode\Runtime\GameFramework\GameRecordsMenu.cpp(72,1): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  Thesis.vcxproj -> C:\Users\DennisPRO\Desktop\Thesis\Binaries\Win64\Thesis.exe
